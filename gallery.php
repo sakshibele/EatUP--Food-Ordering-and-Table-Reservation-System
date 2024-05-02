@@ -10,7 +10,7 @@
 
 <head>
 	
-<title>MFORS</title>
+<title>Eatup</title>
 
 <link rel="stylesheet" href="css/main.css" />
 
@@ -24,7 +24,7 @@
 
 <body>
 	
-<?php require "includes/header.php"; ?>
+<?php require "includes/header2.php"; ?>
 
 <div class="parallax" onclick="remove_class()">
 	

@@ -24,7 +24,7 @@
 								
 								<h4>".$row['food_name']."</h4>
 								<p class='desc'>".substr($row['food_description'], 0, 33)."...</p>
-								<p class='price'>#".$row['food_price']."</p>
+								<p class='price'> Rs ".$row['food_price']."</p>
 								
 							</div>
 							<p class='clear'></p>
@@ -41,7 +41,7 @@
 								
 								<h4>".$row['food_name']."</h4>
 								<p class='desc'>".substr($row['food_description'], 0, 33)."...</p>
-								<p class='price'>#".$row['food_price']."</p>
+								<p class='price'> Rs ".$row['food_price']."</p>
 								
 							</div>
 							<p class='clear'></p>
@@ -58,7 +58,7 @@
 								
 								<h4>".$row['food_name']."</h4>
 								<p class='desc'>".substr($row['food_description'], 0, 33)."...</p>
-								<p class='price'>#".$row['food_price']."</p>
+								<p class='price'> Rs ".$row['food_price']."</p>
 								
 							</div>
 							<p class='clear'></p>
@@ -75,7 +75,7 @@
 								
 								<h4>".$row['food_name']."</h4>
 								<p class='desc'>".substr($row['food_description'], 0, 33)."...</p>
-								<p class='price'>#".$row['food_price']."</p>
+								<p class='price'> Rs ".$row['food_price']."</p>
 								
 							</div>
 							<p class='clear'></p>
@@ -107,7 +107,7 @@
 
 <head>
 	
-<title>MFORS</title>
+<title>Eatup</title>
 
 <link rel="stylesheet" href="css/main.css" />
 
@@ -119,7 +119,7 @@
 
 <body>
 	
-<?php require "includes/header.php"; ?>
+<?php require "includes/header2.php"; ?>
 
 <div class="parallax" onclick="remove_class()">
 	

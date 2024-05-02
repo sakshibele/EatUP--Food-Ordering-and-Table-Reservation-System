@@ -66,7 +66,7 @@
 
 <body>
 	
-<?php require "includes/header.php"; ?>
+<?php require "includes/header2.php"; ?>
 
 <div class="parallax" onclick="remove_class()">
 	
@@ -81,7 +81,7 @@
 
 <div class="content" onclick="remove_class()">
 	
-	<a href="signup.php" class="submit">BOOK A TABLE</a>
+	<a href="reservation.php" class="submit">BOOK A TABLE</a>
 		
 </div>
 

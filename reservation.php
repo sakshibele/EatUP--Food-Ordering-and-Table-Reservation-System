@@ -71,7 +71,8 @@
 
 <head>
 	
-<title>MFORS</title>
+<title>Eatup</title>
+
 
 <link rel="stylesheet" href="css/main.css" />
 
@@ -83,7 +84,7 @@
 
 <body>
 	
-<?php require "includes/header.php"; ?>
+<?php require "includes/header2.php"; ?>
 
 <div class="parallax" onclick="remove_class()">
 	
@@ -181,15 +182,15 @@
 			<div class="left">
 				
 				<h3>LOCATION</h3>
-				<p>Buk New Site, New Campus</p>
-				<p>Kano State</p>
+				<p>Kathora Naka,444602</p>
+				<p>Amravati</p>
 				
 			</div>
 			
 			<div class="left">
 				
 				<h3>CONTACT</h3>
-				<p>08054645432, 07086898709</p>
+				<p>9359058423, 7328898709</p>
 				<p>Website@gmail.com</p>
 				
 			</div>

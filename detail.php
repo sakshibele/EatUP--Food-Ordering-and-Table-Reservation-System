@@ -72,8 +72,8 @@
 <meta name="keywords" content="" />
 
 <head>
-	
-<title>MFORS</title>
+<title>Eatup</title>
+
 
 <link rel="stylesheet" href="css/main.css" />
 
@@ -85,7 +85,7 @@
 
 <body>
 	
-<?php require "includes/header.php"; ?>
+<?php require "includes/header2.php"; ?>
 
 <!--<div class="parallax" onclick="remove_class()">
 	
@@ -121,7 +121,7 @@
 						<h3 class="desc_header"><?php echo $name; ?></h3>
 						<p class="desc_detail"><?php echo $desc; ?> </p>
 						<p><span class="bold_desc">Category:</span> <?php echo $cat; ?></p>
-						<p><span class="bold_desc price">Price:</span> #<span id="price"><?php echo $price; ?></span></p>
+						<p><span class="bold_desc price">Price:</span> Rs <span id="price"><?php echo $price; ?></span></p>
 						<div class="form_group">
 							
 							<p><span class="bold_desc">Quantity:</span></p>
@@ -129,7 +129,7 @@
 							
 						</div>
 						
-						<p><span class="bold_desc">Total Price:</span> #<span id="total_price"><?php echo $price; ?></span></p>
+						<p><span class="bold_desc">Total Price:</span>Rs <span id="total_price"><?php echo $price; ?></span></p>
 						
 						<div class="form_group">
 							<input type="hidden" name="fid" value="<?php echo $id; ?>">

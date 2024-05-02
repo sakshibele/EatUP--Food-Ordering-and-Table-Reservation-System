@@ -95,7 +95,8 @@
 						
 		
 		$i = 0;
-		
+		$foodName = "";
+		$price = 0;
 		foreach ($_SESSION["cart_array"] as $each_item) { 
 			$item_id = $each_item['item_id'];
 			$sql = $db->query("SELECT * FROM food WHERE id='$item_id' LIMIT 1");
@@ -148,7 +149,7 @@
 			$i++; 
 		}
 		
-		$cartTotal = '<p class="p_total"><span>Basket Total</span> : #<span id="cart-total">'.$cartTotal.'</span></p>';
+		$cartTotal = '<p class="p_total"><span>Basket Total</span> : Rs <span id="cart-total">'.$cartTotal.'</span></p>';
 		
 	}
 	
@@ -165,8 +166,8 @@
 <meta name="keywords" content="" />
 
 <head>
-	
-<title>MFORS</title>
+<title>Eatup</title>
+
 
 <link rel="stylesheet" href="css/main.css" />
 
@@ -178,7 +179,7 @@
 
 <body>
 	
-<?php require "includes/header.php"; ?>
+<?php require "includes/header2.php"; ?>
 
 <div class="parallax_basket" onclick="remove_class()">
 	
@@ -226,15 +227,15 @@
 			<div class="left">
 				
 				<h3>LOCATION</h3>
-				<p>Buk New Site, New Campus</p>
-				<p>Kano State</p>
+				<p>Kathora Naka,444602</p>
+				<p>Amravati</p>
 				
 			</div>
 			
 			<div class="left">
 				
 				<h3>CONTACT</h3>
-				<p>08054645432, 07086898709</p>
+				<p>9359058423, 7328898709</p>
 				<p>Website@gmail.com</p>
 				
 			</div>

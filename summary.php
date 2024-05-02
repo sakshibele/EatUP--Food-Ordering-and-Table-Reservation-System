@@ -26,7 +26,8 @@
 
 <head>
 	
-<title>MFORS</title>
+<title>Eatup</title>
+
 
 <link rel="stylesheet" href="css/main.css" />
 
@@ -59,7 +60,7 @@
 		
 		<div class="order_holder">
 			
-			<p class="summary_p">Thank you for your patronage <?php echo $name; ?>. Your <span>Order number</span> is: <?php echo $order_id; ?>. We will ensure that your order is delivered in time and we do hope that you continue patronizing us. Please it is important to take note that your order number should be kept safe</p>
+			<p class="summary_p">Thank you for your patronage <?php echo $name; ?>. Your Order is<span> confirmed </span> <?php echo $order_id; ?>. We will ensure that your order is delivered in time and we do hope that you continue patronizing us. Please it is important to take note that your order number should be kept safe</p>
 			
 		</div>
 		
@@ -77,16 +78,16 @@
 			
 			<div class="left">
 				
-				<h3>LOCATION</h3>
-				<p>Buk New Site, New Campus</p>
-				<p>Kano State</p>
+			<h3>LOCATION</h3>
+				<p>Kathora Naka,444602</p>
+				<p>Amravati</p>
 				
 			</div>
 			
 			<div class="left">
 				
 				<h3>CONTACT</h3>
-				<p>08054645432, 07086898709</p>
+				<p>9359058423, 7328898709</p>
 				<p>Website@gmail.com</p>
 				
 			</div>

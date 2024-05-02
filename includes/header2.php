@@ -37,11 +37,11 @@
 			<li><a href="basket.php">Order</a></li>
 			<!-- <li><a href="signup.php" class="logout-btn">Logout</li> -->
 			<!-- <li><button class="logout-btn"><p class="logout">SignUp</p></button></li> -->
-			<li><button class="logout-btn" id="signup-btn"><p class="logout">SignUp</p></button></li>
+			<li><button class="logout-btn" id="signup-btn"><p class="logout">Logout</p></button></li>
 
 <script>
   document.getElementById("signup-btn").addEventListener("click", function() {
-    window.location.href = "signup.php";
+    window.location.href = "logout.php";
   });
 </script>
 

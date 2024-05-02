@@ -113,7 +113,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Unique Restaurant</title>
+	<title>EatUP</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -210,7 +210,7 @@
             <div class="container-fluid">
                 
                 <p class="copyright pull-right">
-                    &copy; 2016 <a href="index.php" style="color: #FF5722;">Unique Restaurant</a>
+                    &copy; 2016 <a href="index.php" style="color: #FF5722;">EatUP</a>
                 </p>
             </div>
         </footer>
